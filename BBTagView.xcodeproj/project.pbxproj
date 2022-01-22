@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1129E9447015D3CABA0599D4 /* Pods_BBTagView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580F4C4B2A0CA6F1E4EC9DA /* Pods_BBTagView.framework */; };
 		C4D62868279AA2A2002C0341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62867279AA2A2002C0341 /* AppDelegate.swift */; };
 		C4D6286A279AA2A2002C0341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62869279AA2A2002C0341 /* SceneDelegate.swift */; };
 		C4D6286C279AA2A2002C0341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6286B279AA2A2002C0341 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		C4D6287F279AA2A4002C0341 /* BBTagViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6287E279AA2A4002C0341 /* BBTagViewTests.swift */; };
 		C4D62889279AA2A4002C0341 /* BBTagViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62888279AA2A4002C0341 /* BBTagViewUITests.swift */; };
 		C4D6288B279AA2A4002C0341 /* BBTagViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6288A279AA2A4002C0341 /* BBTagViewUITestsLaunchTests.swift */; };
+		C4D62898279AA2B4002C0341 /* BBTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D62897279AA2B4002C0341 /* BBTagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51C78362EA689CF86D3A515D /* Pods-BBTagView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTagView.release.xcconfig"; path = "Target Support Files/Pods-BBTagView/Pods-BBTagView.release.xcconfig"; sourceTree = "<group>"; };
 		C4D62864279AA2A2002C0341 /* BBTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D62867279AA2A2002C0341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D62869279AA2A2002C0341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		C4D62884279AA2A4002C0341 /* BBTagViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTagViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D62888279AA2A4002C0341 /* BBTagViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTagViewUITests.swift; sourceTree = "<group>"; };
 		C4D6288A279AA2A4002C0341 /* BBTagViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTagViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4D62897279AA2B4002C0341 /* BBTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBTagView.swift; sourceTree = "<group>"; };
+		D580F4C4B2A0CA6F1E4EC9DA /* Pods_BBTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E414B94393E7E79258926F /* Pods-BBTagView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTagView.debug.xcconfig"; path = "Target Support Files/Pods-BBTagView/Pods-BBTagView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1129E9447015D3CABA0599D4 /* Pods_BBTagView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A633A954ED318C479E95C36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E414B94393E7E79258926F /* Pods-BBTagView.debug.xcconfig */,
+				51C78362EA689CF86D3A515D /* Pods-BBTagView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		332C857CE8DBADB7B6FA7210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D580F4C4B2A0CA6F1E4EC9DA /* Pods_BBTagView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4D6285B279AA2A2002C0341 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				C4D6287D279AA2A4002C0341 /* BBTagViewTests */,
 				C4D62887279AA2A4002C0341 /* BBTagViewUITests */,
 				C4D62865279AA2A2002C0341 /* Products */,
+				0A633A954ED318C479E95C36 /* Pods */,
+				332C857CE8DBADB7B6FA7210 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,7 @@
 		C4D62866279AA2A2002C0341 /* BBTagView */ = {
 			isa = PBXGroup;
 			children = (
+				C4D62897279AA2B4002C0341 /* BBTagView.swift */,
 				C4D62867279AA2A2002C0341 /* AppDelegate.swift */,
 				C4D62869279AA2A2002C0341 /* SceneDelegate.swift */,
 				C4D6286B279AA2A2002C0341 /* ViewController.swift */,
@@ -134,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4D6288E279AA2A4002C0341 /* Build configuration list for PBXNativeTarget "BBTagView" */;
 			buildPhases = (
+				62AA4ECCF44CD9152343AFFF /* [CP] Check Pods Manifest.lock */,
 				C4D62860279AA2A2002C0341 /* Sources */,
 				C4D62861279AA2A2002C0341 /* Frameworks */,
 				C4D62862279AA2A2002C0341 /* Resources */,
+				4782346B2D58D73F72CAD11C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +283,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4782346B2D58D73F72CAD11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BBTagView/Pods-BBTagView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BBTagView/Pods-BBTagView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BBTagView/Pods-BBTagView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62AA4ECCF44CD9152343AFFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBTagView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4D62860279AA2A2002C0341 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C4D6286C279AA2A2002C0341 /* ViewController.swift in Sources */,
+				C4D62898279AA2B4002C0341 /* BBTagView.swift in Sources */,
 				C4D62868279AA2A2002C0341 /* AppDelegate.swift in Sources */,
 				C4D6286A279AA2A2002C0341 /* SceneDelegate.swift in Sources */,
 			);
@@ -434,6 +507,7 @@
 		};
 		C4D6288F279AA2A4002C0341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E414B94393E7E79258926F /* Pods-BBTagView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +536,7 @@
 		};
 		C4D62890279AA2A4002C0341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C78362EA689CF86D3A515D /* Pods-BBTagView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
